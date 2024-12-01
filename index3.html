@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; 
+            padding: 1px;
+            margin: auto;
+            position: sticky;
+            top: 0.5px;
+            z-index: 1;
+            background-color: white;
+        }
+      a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+            display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           width: 100vw;
+           height: 100vh;
+        }
+        .nav1 h1{
+            opacity: 0.5;
+            position: relative;
+            top: -70px;
+
+        }
+        .About{
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .About img{
+            width: 40vw;
+            height: 110vh;
+            opacity: 0.6;
+            border-radius: 5px;
+            justify-content: center;
+        }
+        .About div h1{
+            display: flex;
+            justify-content: center;
+            font-style: normal;
+            font-size: xx-large;
+            
+        }
+        .About div p{
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+
+        }
+        .About div .p1{
+            display: flex;
+            justify-content: center;
+            font-size: large;
+            font-style: oblique;
+            margin-top: 40px;
+        }
+        .About div .p2{
+            display: flex;
+            justify-content: space-between;
+            width: 40vw;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            font-size: large;
+
+        }
+        .About div .p3{
+            display: flex;
+            justify-content: space-between;
+            width: 40vw;
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            opacity: 0.5;
+            font-size: large;
+        }
+        hr{
+            display: flex;
+            justify-content: center;
+            opacity: 0.5;
+            margin: auto;
+            flex-wrap: wrap;
+            margin-top: 80px;
+            width: 85vw;
+        }
+        .Menu{
+            display: flex;
+            justify-content: space-evenly;
+            justify-content: center;
+             flex-wrap: wrap;
+            margin-top: 80px;
+            font-size: xx-large;
+            gap: 10px;
+           
+            
+        }
+        .Menu img{
+            width: 38vw;
+            justify-content: space-evenly;
+            justify-content: center;
+            margin-top: 25px;
+            flex-wrap: wrap;
+           border-radius: 5px;
+            height: 140vh;
+            opacity: 0.8;
+        }
+        .Menu p{
+            display: grid;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: xx-large;
+           
+            
+        }
+        .Menu .p1{
+            display: grid;
+            justify-content: space-between;
+            font-size: X-large;
+            flex-wrap: wrap;
+             width: 40vw;
+             margin-top: 60px;
+        }
+        .Menu .p11{
+            display: grid;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: medium;
+            opacity: 0.7;
+            margin-top: 20px;
+          
+        }
+        .Contact{
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            margin-top: 40px;
+           
+        }
+        .Contact p{
+            display: flex;
+            justify-content: space-between;
+            font-size: xx-large;
+        }
+        .Contact .p1{
+            display: flex;
+            font-size: medium;
+            justify-content: space-around;
+            width: 80vw;
+        }
+        .Contact .p11{
+            display: flex;
+            font-size: medium;
+            color: gray;
+        }
+        .Contact .p12{
+            display: flex;
+            justify-content: space-between;
+            font-size: medium;
+        }
+        form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80vw;
+        margin: auto;
+        
+        justify-content: center;
+       
+        }
+        input{
+        height: 40px;
+        padding: 5px;
+        border-color: white;
+       
+       }
+       form button{
+        width: 20vw;
+        padding: 15px;
+        font-size: medium;
+        border: white;
+        cursor: pointer;
+        
+       }
+      .Footer{
+        background-color: rgb(243, 241, 241);
+        padding: 50px;
+        gap: 10px;
+        margin-top: 80px;
+        text-align: center;
+
+      }
+      #navbar p:hover,li a:hover{
+        background-color: rgb(232, 228, 228);
+        padding: 5px;
+        cursor: pointer;
+      }
+
+      
+ 
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <p>Gourmet au Catering</p>
+        <ul style="display: flex;list-style: none;gap: 20px;flex-wrap: wrap;">
+            <li><a href="">About</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="nav1" style="position: relative;flex-wrap: wrap;display: flex;">
+        <img src="https://www.w3schools.com/w3images/hamburger.jpg" />
+        <h1>Le Catering</h1>
+    </div >
+    <div class="About">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg"/>
+     
+        <div>
+        <p>About Catering</p>
+        <p class="p1">Tradition since 1889</p>
+        <p class="p2">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+        <p class="p3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div><hr>
+    
+    <div class="Menu">
+        <div>
+        <p>Our Menu</p>
+        <p class="p1">Bread Basket</p>
+        <p class="p11">Assortment of fresh baked fruit breads and muffins 5.50</p>
+        <p class="p1">Honey Almond Granola with Fruits</p>
+        <p class="p11">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <p class="p1">Belgian Waffle</p>
+        <p class="p11">Vanilla flavored batter with malted flour 7.50 </p>
+        <p class="p1">Scrambled eggs</p>
+        <p class="p11">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+        <p class="p1">Blueberry Pancakes</p>
+        <p class="p11">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        
+      <img src="https://www.w3schools.com/w3images/tablesetting.jpg" />
+    </div><hr>
+    <div class="Contact">
+        <div>
+     <p>Contact</p>
+     <P class="p1">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</P>
+     <p class="p11">Catering Service, 42nd Living St, 43043 New York, NY</p>
+     <p class="p12">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    </div>
+    </div>
+     <form>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="How many people" />
+        <input type="datetime" placeholder="Date Of Birth" />
+        <input type=" text" placeholder="Message/Special requirements" />
+        <button>Send Message</button>
+    </form>
+    <div class="Footer">
+        <p>Powered by 10000coders-27R</p>
+      </div>
+</body>
+</html>
